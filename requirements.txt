@@ -7,3 +7,7 @@ torch
 diffusers
 transformers
 accelerate # makes models less memory intensive for loading
+
+# these for some reason are not automatically installed, but are necessary for transformers
+sentencepiece
+protobuf
