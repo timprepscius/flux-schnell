@@ -1,0 +1,9 @@
+#--extra-index-url https://download.pytorch.org/whl/cu121
+#--find-links https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.4.0_cu121.html
+
+runpod~=1.7.0
+
+torch
+diffusers
+transformers
+accelerate # makes models less memory intensive for loading
